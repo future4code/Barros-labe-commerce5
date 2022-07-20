@@ -1,15 +1,15 @@
 import React from "react";
+import { Filtros } from "./appStyle";
 
-//THIS WORKS
+
+//THIS does not work anymore
 function App() {
   return (
     <div className="App">
       <header />
       <body>
-        <filtros />
+        <Filtros />
         <produtos />
-
-
         <carrinho />
       </body>
       <prefooter />
