@@ -22,4 +22,9 @@ border-radius: 10px;
 height: 100px;
 width: 200px;
 `
+export const Body = styled.div`
+background-color: lightgray;
+height: 100%;
+width: 100%;
+`
 
