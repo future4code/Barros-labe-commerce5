@@ -1,29 +1,20 @@
-import React from "react"
+
+import styled from "styled-components"
 
 export const FundoCarta = styled.div`
-background-color: green;
+background-color: turquoise;
 border-radius: 10px;
 `
-export const Carta = styled.div`
+export const Carta = styled.h2`
 background-color: grey;
 border-radius: 10px;
 `
 export const Specs = styled.div`
 display: flex;
-`
-
-border - radius: 10px;
-`
-export const FundoCarta = styled.div`
-background - color: green;
-border - radius: 10px;
-`
-export const FundoCarta = styled.div`
-background - color: green;
-border - radius: 10px;
+border-radius: 10px;
 `
 
 export const NomeCarta = styled.div`
-text - align: center;
-font - weight: bolder;
-border - radius: 10px; `
+text-align: center;
+font-weight: bolder;
+`

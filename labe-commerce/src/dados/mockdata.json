@@ -1,8 +1,9 @@
 [
     {
+        "id": "1",
         "imagem": "",
         "nome": "Endeavour",
-        "preço": "196000000000",
+        "preco": "196000000000",
         "ano": "1987/1992",
         "kilometragem": "197,761,262 km",
         "origem": "Estados Unidos",
@@ -12,9 +13,10 @@
         "estado": "semi-novo"
     },
     {
+        "id": "2",
         "imagem": "",
         "nome": "Delta IV",
-        "preço": "164000000",
+        "preco": "164000000",
         "ano": "2002",
         "kilometragem": "0",
         "origem": "Estados Unidos",
@@ -24,9 +26,10 @@
         "estado": "novo"
     },
     {
+        "id": "3",
         "imagem": "",
         "nome": "Bebop",
-        "preço": "34792528",
+        "preco": "34792528",
         "ano": "",
         "kilometragem": "",
         "origem": "Ganymede",
@@ -36,9 +39,10 @@
         "estado": "usado"
     },
     {
+        "id": "4",
         "imagem": "",
         "nome": "Falcon 9 - B1060",
-        "preço": "49999999",
+        "preco": "49999999",
         "ano": "2020",
         "kilometragem": "1040",
         "origem": "Estados Unidos",
@@ -48,9 +52,10 @@
         "estado": ""
     },
     {
+        "id": "5",
         "imagem": "",
         "nome": "Soyuz",
-        "preço": "",
+        "preco": "",
         "ano": "",
         "kilometragem": "",
         "origem": "",
@@ -60,9 +65,10 @@
         "estado": ""
     },
     {
+        "id": "6",
         "imagem": "",
         "nome": "Long march",
-        "preço": "",
+        "preco": "",
         "ano": "",
         "kilometragem": "",
         "origem": "",
@@ -72,9 +78,10 @@
         "estado": ""
     },
     {
+        "id": "7",
         "imagem": "",
         "nome": "Starship",
-        "preço": "",
+        "preco": "",
         "ano": "",
         "kilometragem": "",
         "origem": "",
@@ -82,5 +89,5 @@
         "potencia": "",
         "ipva": "",
         "estado": ""
-    },
+    }
 ]
