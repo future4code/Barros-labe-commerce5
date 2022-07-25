@@ -1,4 +1,5 @@
 import React from "react"
+import { Input } from "./FiltrosStyle"
 
 function Filtros(props) {
     return (
@@ -6,37 +7,47 @@ function Filtros(props) {
             <p>FILTROS</p>
 
 
-            <input
-                placeholder="Pesquisa"
+            <Input
+                placeholder="Pesquisa nome ou país"
                 value={props.query}
                 onChange={(e) => props.setQuery(e.target.value)}
             />
 
-            <input
+            <Input
                 type="number"
                 placeholder="Preço mínimo"
-                value={props.minPrice}
-                onChange={(e) => props.setMinPrice(e.target.value)}
+                value={props.minPreco}
+                onChange={(e) => props.setMinPreco(e.target.value)}
             />
 
-            <input
+            <Input
                 type="number"
                 placeholder="Preço máximo"
-                value={props.maxPrice}
-                onChange={(e) => props.setMaxPrice(e.target.value)}
+                value={props.maxPreco}
+                onChange={(e) => props.setMaxPreco(e.target.value)}
             />
-            <input
-                type="number"
-                placeholder="Ano De:"
-                value={props.minYear}
-                onChange={(e) => props.setMinYear(e.target.value)}
-            />
-            <input
-                type="number"
-                placeholder="Ano Até:"
-                value={props.maxYear}
-                onChange={(e) => props.setMaxYear(e.target.value)}
-            />
+            <p>
+                <label htmlFo="sortingParameter">Ordenar por: </label>
+                <select
+                    name="sortingParameter"
+                    value={props.sortingParameter}
+                    onChange={(ev) => props.setSortingParameter(ev.target.value)}
+                >
+                    <option value="nome">Nome</option>
+                    <option value="preco">Preço</option>
+                    <option value="ano">Ano</option>
+                </select>
+            </p>
+
+            <select
+                value={props.order}
+                onChange={(ev) => props.setOrder(ev.target.value)}
+            >
+                <option value={"asc"}>Crescente</option>
+                <option value={"desc"}>Decrescente</option>
+
+            </select>
+
 
         </div>
 
